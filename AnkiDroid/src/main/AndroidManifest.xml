@@ -111,6 +111,11 @@
         android:enableOnBackInvokedCallback="true"
         android:manageSpaceActivity="com.ichi2.anki.ui.windows.managespace.ManageSpaceActivity"
         >
+        <!-- Surfaces AnkiDroid as a 2D panel app on Meta Quest 3 / Quest 3S.
+             Sideload-only; not needed for Play Store delivery. -->
+        <meta-data
+            android:name="com.oculus.supportedDevices"
+            android:value="quest3|quest3s"/>
         <!-- Probably because of a bug on the framework,
         the full package path is needed for manageSpaceActivity -->
         <activity

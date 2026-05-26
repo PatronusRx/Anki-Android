@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-License-Identifier: GPL-3.0-or-later
+
+  Library manifest for spacecards-bridge.
+  Consumers (the Unity APK) declare their own application, permissions,
+  and VR features. This module contributes no manifest entries by design.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" />

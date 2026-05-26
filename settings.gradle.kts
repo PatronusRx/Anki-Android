@@ -27,5 +27,6 @@ include(
     ":compat",
     ":libanki",
     ":lint-rules",
+    ":spacecards-bridge",
     ":vbpd",
 )
